@@ -1,0 +1,30 @@
+#!/bin/bash
+
+NEW_CONTENT="just ashes..."
+
+help() {
+    echo "burn <path> <extension>"
+    echo "ex: burn path/to/project php"
+    echo ""
+}
+
+if [ -z "$1" ]; then
+    echo "Please, define a directory..."
+    help
+    exit
+fi
+
+if [ -z "$2" ]; then
+    echo "Please, define a file extension..."
+    help
+    exit
+fi
+
+echo "Getting the kerosene and the lighter..."
+
+find $1 -print | grep .$2 | while read -r file; do
+    echo "Burning $file"
+    echo $NEW_CONTENT > $file
+done
+
+echo "... Phew..."
