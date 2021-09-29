@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NEW_CONTENT="just ashes..."
+NEW_CONTENT="just ashes... and more ashes"
 
 help() {
     echo "burn <path> <extension>"
