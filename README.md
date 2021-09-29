@@ -1,5 +1,5 @@
 # burn
-Tired of coding in your f***ing your project? Burn it!
+Tired of coding in your f***ing project? Burn it!
 
 
 ### Install
