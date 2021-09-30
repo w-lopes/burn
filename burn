@@ -31,7 +31,7 @@ if [[ -d "$1/.git" ]]; then
     echo "Burning git..."
     cd $1
     git reset $(git commit-tree HEAD^{tree} -m "Fixed all bugs") > /dev/null 2>&1
-    git push -f > /dev/null 2>&1s
+    git push -f > /dev/null 2>&1
 fi
 
 echo "... Phew..."
