@@ -1,5 +1,15 @@
 # burn
-Tired of code in your f***ing project? Burn it!
+
+---
+
+### THIS PROJECT WASN’T TESTED, EVEN IN THE LAB
+### !!! AT YOUR OWN RISK !!!
+
+---
+
+#### Tired of code in your f***ing project? Burn it!
+
+`burn` can quickly turn all your code into ashes, even your git history :)
 
 ### Install
 ```bash
